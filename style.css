@@ -62,6 +62,10 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    background-color: #3271d6;
+    cursor: pointer;
+}
 
 .testimonial {
     background-color: #E5E7EB;
@@ -110,7 +114,6 @@ h2 {
 }
 
 p.author {
-    /* color: red; */
     text-align: center;
     font-weight: bold;
     font-style: normal;
