@@ -1,16 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0 8px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 175px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.top-section {
+    background-color: #1F2937;
+    padding: 120px  175px;
+    display: flex;
+    align-items: center;
+}
+
+.top-section h1 {
+    width: 345px;
+}
+
+.top-section p {
+    color: #F9FAf8;
+    width: 450px;
+    margin-top: 0;
+}
+
+.top-section .left {
+    padding-right: 40px;
+}
+
 header, footer {
     background-color: #1F2937;
 }
 
 button {
     background-color: #3882F6;
+    color: #F9FAf8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
 }
 
-.middle .testimonial {
+
+section .testimonial {
     background-color: #E5E7EB;
 }
 
-header {
+/* header {
     border: solid 3px red;
 }
 
@@ -51,4 +108,4 @@ section .card {
 
 .testimonial {
     border: solid 3px red;
-}
+} */
