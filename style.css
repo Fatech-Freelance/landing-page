@@ -67,6 +67,78 @@ section .testimonial {
     background-color: #E5E7EB;
 }
 
+h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    /* font-weight: extra-bold; */
+}
+
+
+section .cards {
+    /* border: solid 3px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .card img {
+    border: solid 3px #3882F6;
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+}
+
+section .card p {
+    margin-top: 8px;
+}
+
+section .card {
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #4a5c75
+}
+
+section .testimonial {
+    /* border: solid 3px red; */
+    padding: 100px 235px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+p.author {
+    /* color: red; */
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.sign-up {
+    border-radius: 8px;
+    margin: 120px 175px;
+    padding: 40px 175px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up h3, .sign-up p {
+    margin: 0;
+}
+
+.sign-up button {
+    border: 2px solid #E5E7EB;
+}
+
 /* header {
     border: solid 3px red;
 }
