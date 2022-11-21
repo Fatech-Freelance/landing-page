@@ -139,6 +139,13 @@ p.author {
     border: 2px solid #E5E7EB;
 }
 
+footer {
+    color: #E5E7EB;
+    padding: 25px 175px;
+    display: flex;
+    justify-content: center;
+}
+
 /* header {
     border: solid 3px red;
 }
