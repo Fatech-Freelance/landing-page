@@ -63,7 +63,7 @@ button {
 }
 
 
-section .testimonial {
+.testimonial {
     background-color: #E5E7EB;
 }
 
@@ -71,29 +71,27 @@ h2 {
     text-align: center;
     color: #1F2937;
     font-size: 36px;
-    /* font-weight: extra-bold; */
 }
 
 
-section .cards {
-    /* border: solid 3px red; */
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section .card img {
+.card img {
     border: solid 3px #3882F6;
     border-radius: 8px;
     width: 180px;
     height: 180px;
 }
 
-section .card p {
+.card p {
     margin-top: 8px;
 }
 
-section .card {
+.card {
     width: 180px;
     height: 180px;
     margin-right: 40px;
@@ -102,8 +100,7 @@ section .card {
     color: #4a5c75
 }
 
-section .testimonial {
-    /* border: solid 3px red; */
+.testimonial {
     padding: 100px 235px;
     font-size: 36px;
     font-style: italic;
@@ -145,46 +142,3 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-/* header {
-    border: solid 3px red;
-}
-
-.left {
-    border: solid 3px blue;
-}
-
-.right {
-    border: solid 3px green;
-}
-
-.top {
-    border: solid 3px purple;
-}
-
-p {
-    border: solid 3px orange;
-}
-
-button, img {
-    border: solid 3px pink;
-}
-
-section .top.left {
-    border: solid 3px green;
-}
-
-section .top.right {
-    border: solid 3px blue;
-}
-
-section .cards {
-    border: solid 3px cornflowerblue;
-}
-section .card {
-    border: solid 3px red;
-}
-
-.testimonial {
-    border: solid 3px red;
-} */
